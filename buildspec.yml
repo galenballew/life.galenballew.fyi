@@ -6,10 +6,12 @@ phases:
      - gem update --system
      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
      - echo "jekyll installed"
+     - gem install bundler
+     - bundle install
  build:
    commands:
      - echo "building step"
-     - jekyll build
+     - bundle exec jekyll build
      - echo "building complete"
  post_build:
    commands:
