@@ -9,6 +9,7 @@ phases:
      - gem uninstall bundler
      - gem install bundler
      - bundle install
+     - echo "bundle installed"
  build:
    commands:
      - echo "building step"
