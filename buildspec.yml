@@ -8,6 +8,7 @@ phases:
      - echo "jekyll installed"
      - gem uninstall bundler
      - gem install bundler
+     - bundle update
  build:
    commands:
      - echo "building step"
