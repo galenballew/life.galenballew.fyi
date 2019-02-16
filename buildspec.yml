@@ -3,14 +3,14 @@ phases:
  install:
    commands:
      - echo "install step"
-     - gem install jekyll
+     - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
      - echo "jekyll installed"
      - gem install bundler
      - echo "bundler installed"
  build:
    commands:
      - echo "building step"
-     - bundler exec jekyll build
+     - jekyll build
      - echo "building complete"
  post_build:
    commands:
