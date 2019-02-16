@@ -1,0 +1,19 @@
+version: 0.2
+phases:
+ install:
+   commands:
+     - echo "install step"
+     - gem install jekyll
+     - echo "jekyll installed"
+     - gem install bundler
+     - echo "bundler installed"
+ build:
+   commands:
+     - echo "building step"
+     - jekyll build
+     - echo "building complete"
+ post_build:
+   commands:
+     - echo "post_build step"
+     - aws s3 sync --delete _site/ "s3://galenballew.fyi"
+     - echo "website sinked to bucket"
