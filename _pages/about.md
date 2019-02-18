@@ -1,5 +1,5 @@
 ---
-title: About Galen
+title: About
 subtitle: The man, the myth, the legend.
 description: Everything you could ever want to know about Galen Ballew.
 featured_image: /images/demo/demo-portrait.jpg
