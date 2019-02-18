@@ -18,7 +18,7 @@ phases:
  post_build:
    commands:
      - echo "post_build step"
-     - aws s3 sync _site/ s3://galenballew.fyi/
+     - aws s3 sync --delete _site/ s3://galenballew.fyi/
      - echo "files transferred successfully"
      - aws cloudfront create-invalidation --distribution-id E1BBD9XD38EPQC --paths /*
      - echo "CDN cache invalidated"
