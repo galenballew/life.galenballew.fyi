@@ -3,7 +3,7 @@ phases:
  install:
    commands:
      - echo "install step"
-     - gem update --system
+     - gem update --system --quiet
      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
      - echo "jekyll installed"
      - gem uninstall bundler
