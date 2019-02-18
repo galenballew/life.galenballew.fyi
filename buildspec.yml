@@ -18,8 +18,8 @@ phases:
  post_build:
    commands:
      - echo "post_build step"
-     - cd _site/
-     - aws s3 sync --debug --delete . s3://galenballew.fyi 
-     - echo "website sinked to bucket"
      - aws cloudfront create-invalidation --distribution-id E1BBD9XD38EPQC --paths /*
      - echo "CDN cache invalidated"
+     - cd _site/
+     - aws s3 sync --delete . s3://galenballew.fyi 
+     - echo "website sinked to bucket"
