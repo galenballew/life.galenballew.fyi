@@ -1,7 +1,7 @@
 ---
-title: About GALEN
-subtitle: A stunning personal blog Jekyll theme with an image-focused design.
-description: A stunning personal blog Jekyll theme with an image-focused design.
+title: About Galen
+subtitle: The man, the myth, the legend.
+description: Everything you could ever want to know about Galen Ballew.
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
@@ -27,9 +27,3 @@ Journal is packed with powerful features to showcase your work:
 * Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
 * Works with GitHub Pages
 * Updated and supported by the developers
-
-## Get Index
-
-Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $39.
-
-<a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
