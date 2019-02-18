@@ -1,4 +1,4 @@
-version: 0.2
+version: 1.0
 phases:
  install:
    commands:
@@ -18,5 +18,8 @@ phases:
  post_build:
    commands:
      - echo "post_build step"
-     - aws s3 sync --delete _site/ "s3://galenballew.fyi"
+     - cd _site/
+     - aws s3 sync --delete . "s3://galenballew.fyi"
      - echo "website sinked to bucket"
+     - aws cloudfront create-invalidation --distribution-id E1BBD9XD38EPQC --paths /*
+     - echo "CDN cache invalidated"
