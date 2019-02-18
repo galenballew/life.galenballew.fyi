@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Galen Ballew
-  site_tagline: A collection of articles and projects created by Galen Ballew.
+  site_tagline: Welcome to my little slice of the internet.
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -12,8 +12,16 @@ menu_settings:
   menu_items:
     - title: 'Latest'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
+    - title: 'Cloud'
+      url: '/cloud'
+    - title: 'TL;DR'
+      url: '/tldr'
+    - title: 'Deep Learning'
+      url: '/deep-learning'
+    - title: 'Artwork'
+      url: '/artwork'
+    - title: 'Lifestyle'
+      url: '/lifestyle'
     - title: 'About'
       url: '/about'
 
@@ -21,32 +29,10 @@ grid_settings:
   grid_spacing: 10
 
 social_settings:
-  facebook_url: ''
-  twitter_url: ''
-  instagram_url: ''
-  snapchat_url: ''
-  youtube_url: 'https://www.youtube.com/user/galen21/'
-  google-plus_url: ''
-  vimeo_url: ''
-  pinterest_url: ''
-  medium_url: 'https://medium.com/@galen.ballew'
-  quora_url: ''
-  amazon_url: ''
-  apple_url: ''
-  android_url: ''
-  tumblr_url: ''
-  dribbble_url: ''
-  behance_url: ''
-  deviantart_url: ''
-  github_url: 'https://github.com/galenballew'
-  reddit_url: ''
-  flickr_url: ''
-  etsy_url: ''
-  kickstarter_url: ''
-  soundcloud_url: ''
-  spotify_url: ''
-  bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/galenballew'
+  github_url: 'https://github.com/galenballew'
+  youtube_url: 'https://www.youtube.com/user/galen21/'
+
 
 color_settings:
   background_color: '#ffffff'
