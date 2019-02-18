@@ -20,8 +20,9 @@ phases:
  post_build:
    commands:
      - echo "post_build step"
+     - aws s3 cp _site/ s3://galenballew.fyi/ --content-type text/html --recursive --exclude "*.*"
+     - echo "files without .html extension transferred to bucket"
+     - aws s3 cp _site/ s3://galenballew.fyi/ --recursive --exclude "*" --include "*.*"
+     - echo "files with extensions transferred to bucket"
      - aws cloudfront create-invalidation --distribution-id E1BBD9XD38EPQC --paths /*
      - echo "CDN cache invalidated"
-     - cd _site/
-     - aws s3 sync --delete . s3://galenballew.fyi 
-     - echo "website sinked to bucket"
