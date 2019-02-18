@@ -13,7 +13,7 @@ phases:
  build:
    commands:
      - echo "building step"
-     - bundle exec jekyll build
+     - production bundle exec jekyll build
      - echo "building complete"
  post_build:
    commands:
