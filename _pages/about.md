@@ -2,28 +2,34 @@
 title: About
 subtitle: The man, the myth, the legend.
 description: Everything you could ever want to know about Galen Ballew.
-featured_image: /images/demo/demo-portrait.jpg
+featured_image: /images/about/portrait.tif
 ---
 
-![](/images/demo/demo-landscape.jpg)
+Thanks for checking out my website! I use this bad boy to keep track of my thoughts and projects. It's a nice place to come back and self-reflect. That being said, I write my articles largely for myself. If I gloss over any details that you'd like clarification on, please feel free to contact me on LinkedIn or GitHub. 
 
-## Features
-
-Journal is packed with powerful features to showcase your work:
-
-* Beautiful, minimal design
-* Fixed sidebar images that animate as you browse
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+**FAQ:**
+- _How did you grow your beard?_
+    - I pushed it out of my face.
+- _What do you do for a living?_
+    - On paper, I do things in the clouds. In reality, I manage teams and try to be creative whenever possible.
+- _What's your sign?_
+    - Capricorn. 
+- _What would you do if you were President of the United States of America?_
+    - Change to the Metric system
+    - Honor Native American treaties
+    - Commission a change of rhetoric ("taxes" to "social investment")
+    - Create the Department of Peace
+    - Increase NASA funding
+    - Alter the draft to include women
+    - Increase the draft age to 21
+    - Abolish age limits for elected office
+    - Fiber optics infrastructure plan, govt operated
+    - High speed trains, tunnels, etc 
+    - 13 month calendar 28 days 
+    - Checks and balances; possible merger for FBI, CIA, NSA
+    - Legalize cannabis
+    - Making voting a national holiday
+    - Automatic voter registration
+    - End tax loopholes; make a very, very simple plan
+    - End oil and corn subsidies 
+    - Create research study for the feasability of blockchain voting systems
