@@ -17,8 +17,8 @@ featured_image: /images/demo/demo-portrait.jpg
 				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
 			</div>
 
-			{% if post.featured_image %}
-			<a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.featured_image  }});"></a>
+			{% if post.scroll_image %}
+			<a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.scroll_image  }});"></a>
 			{% endif %}
 
 			<div class="blog-post__content">

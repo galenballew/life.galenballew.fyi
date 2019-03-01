@@ -132,9 +132,7 @@ $footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 // Grid item
 $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
-
-
-// - - - - - - - - - - Global styles
+  // - - - - - - - - - - Global styles
 
 @import "_basic";
 

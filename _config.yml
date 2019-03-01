@@ -28,6 +28,7 @@ defaults:
       layout: "post"
 
 markdown: kramdown
+mathjax: true
 
 kramdown:
   input: GFM
