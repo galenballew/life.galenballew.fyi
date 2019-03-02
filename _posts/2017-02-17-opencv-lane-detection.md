@@ -10,4 +10,4 @@ comments: true
 share: true
 ---
 
-Click the link above to read my article on Medium. 
+I have this article pushlished over on Medium. [Click here to read it.](https://medium.com/@galen.ballew/opencv-lanedetection-419361364fc0)

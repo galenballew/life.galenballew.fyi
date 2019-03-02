@@ -11,11 +11,11 @@ Thanks for checking out my website! I use this bad boy to keep track of my thoug
 
 #### FAQ:
 - _How did you grow your beard?_
-  - I pushed it out of my face.  
+  - I pushed it out of my face.<br><br>
 - _What do you do for a living?_  
-  - On paper, I do things in the clouds. In reality, I manage teams and try to be creative whenever possible.  
+  - On paper, I do things in the clouds. In reality, I manage teams and try to be creative whenever possible.<br><br>  
 - _What's your sign?_
-  - Capricorn.  
+  - Capricorn.<br><br>  
 - _What would you do if you were President of the United States of America?_  
   - Change to the Metric system   
   - Honor Native American treaties  
@@ -25,6 +25,7 @@ Thanks for checking out my website! I use this bad boy to keep track of my thoug
   - Alter the draft to include women  
   - Increase the draft age to 21  
   - Abolish age limits for elected office  
+  - Opt-out model for organ donor registration
   - Fiber optics infrastructure plan, govt operated  
   - High speed trains, tunnels, etc   
   - 13 month calendar 28 days   
