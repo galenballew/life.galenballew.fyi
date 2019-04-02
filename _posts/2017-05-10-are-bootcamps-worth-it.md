@@ -2,7 +2,7 @@
 title: "Are Tech Bootcamps Worth It?"
 date: 2017-05-10 00:00:00
 excerpt: "My 12 weeks of data science at Metis"
-categories: [ml]
+categories: [dl]
 tags: [data-science, machine-learning, bootcamps]
 featured_image: '/images/so-simple-sample-image-1.jpg'
 scroll_image: '/images/cohort.jpg'

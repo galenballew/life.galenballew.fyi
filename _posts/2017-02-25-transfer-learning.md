@@ -2,7 +2,7 @@
 title: "Transfer Learning in Keras"
 date: 2017-02-25 00:00:00
 excerpt: "Repurposing pre-trained deep learning networks for new problems"
-categories: [ml]
+categories: [dl]
 tags: [deep learning, visualization, d3, keras, tensorflow]
 featured_image: '/images/prediction.jpg'
 scroll_image: '/images/prediction.jpg'
