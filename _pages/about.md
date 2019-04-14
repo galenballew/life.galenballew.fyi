@@ -18,6 +18,7 @@ Thanks for checking out my website! I use this bad boy to keep track of my thoug
   - Capricorn.<br><br>  
 - _What would you do if you were President of the United States of America?_  
   - Change to the Metric system   
+  - Invest in education across the board
   - Honor Native American treaties  
   - Commission a change of rhetoric ("taxes" to "social investment")  
   - Create the Department of Peace  
