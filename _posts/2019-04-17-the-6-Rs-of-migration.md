@@ -1,8 +1,8 @@
 ---
-title: 'The 6 R's of Cloud Migration'
+title: 'The 6 Rs of Cloud Migration'
 date: 2019-04-24 00:00:00
 excerpt: TL;DR on this AWS blog post.
-categories: [tldr]
+categories: [tldr, cloud]
 tags: [tldr, cloud, aws]
 featured_image: '/images/feature/7.jpg'
 #scroll_image: '/images/'
