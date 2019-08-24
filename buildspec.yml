@@ -1,4 +1,4 @@
-version: 0.2
+version: 2.1
 phases:
  install:
    commands:
@@ -6,15 +6,10 @@ phases:
      - gem update --system --quiet
      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
      - echo "jekyll installed"
-     - gem uninstall bundler
-     - gem install bundler -v '>=2.0.2'
-     - bundle -v
-     - bundle _2.0.2_ install
-     - echo "bundle installed"
  build:
    commands:
      - echo "building step"
-     - bundle exec jekyll build --verbose
+     - jekyll build --verbose
      - echo "building complete"
  post_build:
    commands:
