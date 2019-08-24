@@ -9,7 +9,6 @@ phases:
      - gem uninstall bundler
      - gem install bundler -v '>=2.0.2'
      - bundle -v
-     - bundle update --bundler
      - bundle _2.0.2_ install
      - echo "bundle installed"
  build:
