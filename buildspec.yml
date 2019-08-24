@@ -7,8 +7,8 @@ phases:
      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
      - echo "jekyll installed"
      - gem uninstall bundler
-     - gem install bundler
-     - gem update --system --quiet
+     - gem install bundler -v '>=2.0.2'
+     - bundle -v
      - bundle update --bundler
      - bundle install
      - echo "bundle installed"
