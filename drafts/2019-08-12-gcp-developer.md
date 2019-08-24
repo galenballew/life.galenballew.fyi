@@ -66,7 +66,12 @@ In order to achieve the promise of microservices, each service must be stateless
   - defined in an index configuration file
   - too many will increase latency to achieve consistency
 
-Datastore is excellent for structured data that is non-relational. It scales extremely well. However, unlike relational databases, it does not support `join` operations. It does not support inequality filtering on multiple properties. It does not support filtering based on results of a subquery.
+3 types of queries:
+1) use `keys-only` when you only need the entity key
+2) use `projection-query` when you only need specific properties from the entity or properties included in the query filter
+3) use `ancestor-query` when you need strongly consistency
+
+Datastore is excellent for structured data that is non-relational. It scales extremely well. However, unlike relational databases, it does not support `join` operations. It does not support inequality filtering on multiple properties. It does not support filtering based on results of a subquery. Practically speaking, this means that you will often make two or more inequality queries and then compute the intersection. 
 
 Remember that Datastore stores keys lexographically. High read/write activity to a local neighborhood of keys (or a relatively new key) will result in bottlenecks. For numeric keys, you can use the allocateIds() method to get keys that are distributed for performance. Outside of that, avoid negative numbers, the number zero, and monotomically increasing numbers.
 
@@ -74,7 +79,14 @@ If you need higher read capacity of a portion of the key range, you can use repl
 
 Datastore transactions can fail when they run longer than 60 seconds, there are too many concurrent writes to the same entity group, or a transaction operates on more than 25 different entity groups. Datastore can return exceptions in cases where the transaction will eventually be committed succesfully - therefore, design your transactions to be idempotent. Idempotent means that a the final state will be the same even if a transaction is processed multiple times.
 
-# IAM
+# Monitoring and Tuning Performance
+
+Be sure to measure and visualize The 4 Golden Metrics
+1) Latency
+   - Differentiate between successful and unsuccessful requests
+2) Traffic
+3) Errors
+4) Saturation
 
 
 # Resources: 
@@ -82,6 +94,7 @@ Datastore transactions can fail when they run longer than 60 seconds, there are 
 [12 best practices for user account, authorization and password management](https://cloud.google.com/blog/products/gcp/12-best-practices-for-user-account)
 [Choosing an App Engine environment](https://cloud.google.com/appengine/docs/the-appengine-environments)
 [Developing Applications with Google Cloud Platform Specialization](https://www.coursera.org/specializations/developing-apps-gcp)
-
-
+[Google API Design Guide](https://cloud.google.com/apis/design/)
+[Big Table Schema Design](https://cloud.google.com/bigtable/docs/schema-design)
+[Big Query Batch](https://cloud.google.com/bigquery/batch)
 # 
