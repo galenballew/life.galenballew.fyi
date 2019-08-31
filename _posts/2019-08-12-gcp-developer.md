@@ -32,6 +32,8 @@ Benefits of microservice architecture compared to a monolithic application:
 
 In order to achieve the promise of microservices, each service must be stateless. Being stateful causes availability issues if an instance of a service goes down and accessing a shared state is a bottleneck for scalability. Stateless service instances can start up quickly and shutdown gracefully. 
 
+--- 
+
 # Security, Reliability, and Migration
 - implement healthchecks on storage, database, compute, network, etc
   - you can use this to route requests to unhealthy enpoints to a status page and return a 200.
@@ -49,6 +51,8 @@ In order to achieve the promise of microservices, each service must be stateless
   -  migrate one component of a monolithic application at a time while leaving the original application fully functional
   -  requests can be easily directed to the new or old appliction
   -  this is a low risk migration pattern since it will not affect any business critical needs
+
+---
 
 # Datastore
 - Objects are called `entities`.
@@ -80,8 +84,8 @@ If you need higher read capacity of a portion of the key range, you can use repl
 
 Datastore transactions can fail when they run longer than 60 seconds, there are too many concurrent writes to the same entity group, or a transaction operates on more than 25 different entity groups. Datastore can return exceptions in cases where the transaction will eventually be committed succesfully - therefore, design your transactions to be idempotent. Idempotent means that a the final state will be the same even if a transaction is processed multiple times.
 
+--- 
 # Monitoring and Tuning Performance
-
 Be sure to measure and visualize The 4 Golden Metrics:
 1) Latency
    - Differentiate between successful and unsuccessful requests
@@ -89,6 +93,7 @@ Be sure to measure and visualize The 4 Golden Metrics:
 3) Errors
 4) Saturation
 
+---
 
 # Resources: 
 - [12 best practices for user account, authorization and password management](https://cloud.google.com/blog/products/gcp/12-best-practices-for-user-account)
@@ -97,4 +102,3 @@ Be sure to measure and visualize The 4 Golden Metrics:
 - [Google API Design Guide](https://cloud.google.com/apis/design/)
 - [Big Table Schema Design](https://cloud.google.com/bigtable/docs/schema-design)
 - [Big Query Batch](https://cloud.google.com/bigquery/batch)
-# 

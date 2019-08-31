@@ -12,15 +12,15 @@ These are my raw format notes that I took while studying for the [AWS Solutions 
 
 ---
 
-Domain 1: Design for Organizational Complexity 12.5%
+Domain 1: Design for Organizational Complexity 12.5%  
 1.1. Determine cross-account authentication and access strategy for complex organizations (for example, an
 organization with varying compliance requirements, multiple business units, and varying scalability
-requirements).
+requirements).  
 1.2. Determine how to design networks for complex organizations (for example, an organization with varying
-compliance requirements, multiple business units, and varying scalability requirements).
+compliance requirements, multiple business units, and varying scalability requirements).  
 1.3. Determine how to design a multi-account AWS environment for complex organizations (for example, an
 organization with varying compliance requirements, multiple business units, and varying scalability
-requirements).
+requirements).  
 
 - Prohibit the use of unapproved services in production AWS accounts and minimize additional management overhead as the number of accounts increases
   - AWS Organizations
@@ -59,13 +59,13 @@ requirements).
 ---
 
 
-Domain 2: Design for New Solutions 31%
-2.1. Determine security requirements and controls when designing and implementing a solution.
-2.2. Determine a solution design and implementation strategy to meet reliability requirements.
-2.3. Determine a solution design to ensure business continuity.
-2.4. Determine a solution design to meet performance objectives.
+Domain 2: Design for New Solutions 31%  
+2.1. Determine security requirements and controls when designing and implementing a solution.  
+2.2. Determine a solution design and implementation strategy to meet reliability requirements.  
+2.3. Determine a solution design to ensure business continuity.  
+2.4. Determine a solution design to meet performance objectives.  
 2.5. Determine a deployment strategy to meet business requirements when designing and implementing a
-solution.
+solution.  
 
 
 - you are designing an application that will perform several calculations each night. the calculations are independent of each other and may take several hours to complete. what design will minimize costs, minimize interdependencies, and execute the calculations in parallel?
@@ -123,11 +123,11 @@ solution.
 
 ---
 
-Domain 3: Migration Planning 15%
-3.1. Select existing workloads and processes for potential migration to the cloud.
-3.2. Select migration tools and/or services for new and migrated solutions based on detailed AWS knowledge.
-3.3. Determine a new cloud architecture for an existing solution.
-3.4. Determine a strategy for migrating existing on-premises workloads to the cloud.
+Domain 3: Migration Planning 15%  
+3.1. Select existing workloads and processes for potential migration to the cloud.  
+3.2. Select migration tools and/or services for new and migrated solutions based on detailed AWS knowledge.  
+3.3. Determine a new cloud architecture for an existing solution.  
+3.4. Determine a strategy for migrating existing on-premises workloads to the cloud.  
 
 - You are migrating a MySQL database. The database is forecasted to grow and the company wants to reduce the administrative/operational burden of maintaining it. What is a cost-effective solution that can be implemented quickly, requires minimal administration, and offers high performance now and in the future? Must be HA and remain operational during the migration.
   - Aurora vs RDS
@@ -153,10 +153,10 @@ Domain 3: Migration Planning 15%
   
 ---
 
-Domain 4: Cost Control 12.5%
-4.1. Select a cost-effective pricing model for a solution.
-4.2. Determine which controls to design and implement that will ensure cost optimization.
-4.3. Identify opportunities to reduce cost in an existing solution.
+Domain 4: Cost Control 12.5%  
+4.1. Select a cost-effective pricing model for a solution.  
+4.2. Determine which controls to design and implement that will ensure cost optimization.  
+4.3. Identify opportunities to reduce cost in an existing solution.  
 
 - an application receives data every hour, on the hour. the data is processed for 50 minutes and produces a 10GB output. This output is heavily accessed during the first hour it is available with useage dropping as new outputs become available. what's the **MOST** cost-effective architecture?
     - Absolute cheapest way for compute would be EC2 1-hour Spot blocks in multiple regions
@@ -167,13 +167,13 @@ Domain 4: Cost Control 12.5%
 
 ---
 
-Domain 5: Continuous Improvement for Existing Solutions 29%
-5.1. Troubleshoot solution architectures. 
-5.2. Determine a strategy to improve an existing solution for operational excellence.
-5.3. Determine a strategy to improve the reliability of an existing solution.
-5.4. Determine a strategy to improve the performance of an existing solution.
-5.5. Determine a strategy to improve the security of an existing solution.
-5.6. Determine how to improve the deployment of an existing solution.
+Domain 5: Continuous Improvement for Existing Solutions 29%  
+5.1. Troubleshoot solution architectures.   
+5.2. Determine a strategy to improve an existing solution for operational excellence.  
+5.3. Determine a strategy to improve the reliability of an existing solution.  
+5.4. Determine a strategy to improve the performance of an existing solution.  
+5.5. Determine a strategy to improve the security of an existing solution.  
+5.6. Determine how to improve the deployment of an existing solution.  
 
 - Your application accesses a on-premises database over a 1 Gbps AWS Direct Connect link. The database is also used by applications in the data center. What can you do to make your architecture better?
   - Direct Connect is a single point of failure. If you do not have multiple Direct Connect connections, you should also establish a VPN connection between the data center and the virtual private gateway in the VPC.
