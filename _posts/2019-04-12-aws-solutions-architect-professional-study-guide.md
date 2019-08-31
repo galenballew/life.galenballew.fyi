@@ -8,6 +8,8 @@ featured_image: '/images/demo/demo-portrait.jpg'
 ---
 # Abstract
 
+These are my raw format notes that I took while studying for the [AWS Solutions Architect - Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/) certifcation. I passed the test and am [officially certified!](https://www.linkedin.com/in/galenballew/) 
+
 ---
 
 Domain 1: Design for Organizational Complexity 12.5%

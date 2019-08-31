@@ -11,6 +11,7 @@ share: true
 ---
 # Abstract
 
+These are my raw format notes that I took while studying for the [GCP Professional Cloud Security Engineer Certification](https://cloud.google.com/certification/cloud-security-engineer). I've included links to the resources that I used to study. I passed the test and am [officially certified!](https://www.credential.net/profile/galenballew/wallet)
 
 ---
 

@@ -11,7 +11,8 @@ share: true
 ---
 # Abstract
 
-https://cloud.google.com/certification/cloud-developer
+These are the raw format notes that I took while studying for the [Google Cloud Professional Cloud Developer Certification](https://cloud.google.com/certification/cloud-developer). I've linked to the various materials that I used to study in the **Resources** section at the bottom. I passed the test and am [officially certified!](https://www.credential.net/profile/galenballew/wallet)
+
 ---
 
 # Code and Environment Management
@@ -81,7 +82,7 @@ Datastore transactions can fail when they run longer than 60 seconds, there are 
 
 # Monitoring and Tuning Performance
 
-Be sure to measure and visualize The 4 Golden Metrics
+Be sure to measure and visualize The 4 Golden Metrics:
 1) Latency
    - Differentiate between successful and unsuccessful requests
 2) Traffic
@@ -90,11 +91,10 @@ Be sure to measure and visualize The 4 Golden Metrics
 
 
 # Resources: 
-
-[12 best practices for user account, authorization and password management](https://cloud.google.com/blog/products/gcp/12-best-practices-for-user-account)
-[Choosing an App Engine environment](https://cloud.google.com/appengine/docs/the-appengine-environments)
-[Developing Applications with Google Cloud Platform Specialization](https://www.coursera.org/specializations/developing-apps-gcp)
-[Google API Design Guide](https://cloud.google.com/apis/design/)
-[Big Table Schema Design](https://cloud.google.com/bigtable/docs/schema-design)
-[Big Query Batch](https://cloud.google.com/bigquery/batch)
+- [12 best practices for user account, authorization and password management](https://cloud.google.com/blog/products/gcp/12-best-practices-for-user-account)
+- [Choosing an App Engine environment](https://cloud.google.com/appengine/docs/the-appengine-environments)
+- [Developing Applications with Google Cloud Platform Specialization](https://www.coursera.org/specializations/developing-apps-gcp)
+- [Google API Design Guide](https://cloud.google.com/apis/design/)
+- [Big Table Schema Design](https://cloud.google.com/bigtable/docs/schema-design)
+- [Big Query Batch](https://cloud.google.com/bigquery/batch)
 # 
