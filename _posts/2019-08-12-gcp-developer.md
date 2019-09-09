@@ -71,10 +71,10 @@ In order to achieve the promise of microservices, each service must be stateless
   - defined in an index configuration file
   - too many will increase latency to achieve consistency
 
-3 types of queries:
-1) use `keys-only` when you only need the entity key
-2) use `projection-query` when you only need specific properties from the entity or properties included in the query filter
-3) use `ancestor-query` when you need strongly consistency
+3 types of queries:  
+  1) use `keys-only` when you only need the entity key  
+  2) use `projection-query` when you only need specific properties from the entity or properties included in the query filter   
+  3) use `ancestor-query` when you need strongly consistency  
 
 Datastore is excellent for structured data that is non-relational. It scales extremely well. However, unlike relational databases, it does not support `join` operations. It does not support inequality filtering on multiple properties. It does not support filtering based on results of a subquery. Practically speaking, this means that you will often make two or more inequality queries and then compute the intersection. 
 
@@ -86,12 +86,12 @@ Datastore transactions can fail when they run longer than 60 seconds, there are 
 
 --- 
 # Monitoring and Tuning Performance
-Be sure to measure and visualize The 4 Golden Metrics:
-1) Latency
-   - Differentiate between successful and unsuccessful requests
-2) Traffic
-3) Errors
-4) Saturation
+Be sure to measure and visualize The 4 Golden Metrics:  
+1) Latency  
+   - Differentiate between successful and unsuccessful requests  
+2) Traffic  
+3) Errors  
+4) Saturation  
 
 ---
 
