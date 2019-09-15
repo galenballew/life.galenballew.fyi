@@ -4,7 +4,7 @@ date: 2017-05-10 00:00:00
 excerpt: "My 12 weeks of data science at Metis"
 categories: [dl]
 tags: [data-science, machine-learning, bootcamps]
-featured_image: '/images/so-simple-sample-image-1.jpg'
+featured_image: /images/feature/6.jpg
 scroll_image: '/images/cohort.jpg'
 comments: true
 share: true

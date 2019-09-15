@@ -4,7 +4,7 @@ date: 2017-05-12 00:00:00
 excerpt: "From a BS in Mathematics to working on bleeding-edge technology"
 categories: [cloud]
 tags: [data-science, machine-learning, bootcamps, self-driving-cars]
-featured_image: '/images/so-simple-sample-image-2.jpg'
+featured_image: /images/feature/7.jpg
 scroll_image: '/images/tesla.jpeg'
 comments: true
 share: true

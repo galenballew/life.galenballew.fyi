@@ -4,7 +4,7 @@ date: 2016-04-11 00:00:00
 excerpt: "Interactive Unity3d build of a box fractal"
 categories: [art]
 tags: [mathematics, unity, video, visualization]
-featured_image: /images/so-simple-sample-image-2.jpg 
+featured_image: '/images/feature/4.jpg'
 #scroll_image: '/images/prediction.jpg'
 comments: true
 share: true
