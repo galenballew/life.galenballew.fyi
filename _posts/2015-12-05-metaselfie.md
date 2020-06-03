@@ -5,7 +5,7 @@ excerpt: "Fractal animation with original soundscape"
 categories: [art]
 tags: [visualization, video, maya, mathematics]
 featured_image: '/images/meta_feature.jpg'
-scroll_image: 'images/meta_scroll.jpg'
+scroll_image: '/images/meta_scroll.jpg'
 comments: true
 share: true
 ---
