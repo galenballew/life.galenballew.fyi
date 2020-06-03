@@ -5,7 +5,7 @@ excerpt: "Elliptic curves with complex multiplication give rise to tori over the
 categories: [art]
 tags: [mathematics, 3dprinting, illustrator, maya, photoshop]
 featured_image: '/images/EC_feature.jpg'
-scroll_image: 'images/EC_scroll.jpg'
+scroll_image: '/images/EC_scroll.jpg'
 comments: true
 share: true
 ---
