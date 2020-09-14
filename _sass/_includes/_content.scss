@@ -138,7 +138,9 @@
 	table {
 		margin: 20px auto;
 		width: 100%;
-
+		background-color: #f0f0f0;
+		font-size: $p-medium;
+		
 		@include mq(tabletp) {
 			margin: 30px auto;
 		}

@@ -74,7 +74,7 @@ I stumbled into digital gardening through the backdoor. I started with the techn
 Here is a fun story: While trying to write this article, I had a full-blown digital gardening experience. What you're about to read is a short story about a few minutes of research that would make a perfect snippet or micro-blog (AKA a "seedling".)
 
 ---
-I was looking for a subtitle for the next section of my blog article where I talked about what components are missing from the tech stack for a really comprehensive, smooth blogging experience that would use graph-based notes. In the back of my mind, I thought I remembered some quote about _"War is the mother of all invention."_ and a vague recollection of "..and that's where microwaves came from, kids!"
+I was looking for a subtitle for the next section of my blog article where I talked about what components are missing from the tech stack for a really comprehensive, smooth blogging experience that would use graph-based notes. In the back of my mind, I thought I remembered some quote about _"War is the mother of all invention."_ and a vague recollection of "..and that's where microwaves come from, kids!"
 
 So I went with **"Agrilculture is the Mother of Invention."** because, ya know, puns. I did a quick Google just to cover my bases and I found out that ["Necessity is the mother of invention."](https://en.wikipedia.org/wiki/Necessity_is_the_mother_of_invention) But this is where it get's good - Ester Boserup used the phrase as a major argument in her book _The Conditions of Agricultural Growth: The Economics of Agrarian Change under Population Pressure._ So, this just goes to show you that my subtitle for this section is about 9,000 IQ. 
 
@@ -110,7 +110,7 @@ There's a few things out there that I'm keeping my eye on to pull this idea toge
 ---
 # Farmer's Market  
 
-Let's take this one step further and see if there are any commercial enterprise applications. In my current line of work, I can see an immediate usecase for the ability to create a chain of bidirectional links. Here's a concrete example: 
+Let's take this one step further and see if there are any commercial enterprise applications. In my current line of work, I can see an immediate use case for the ability to create a chain of bidirectional links. Here's a concrete example: 
 
 1. Security Architecture defines requirements for a new service.
    - `[[Service Requirements]]`
