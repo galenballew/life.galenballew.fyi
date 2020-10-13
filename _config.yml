@@ -33,6 +33,7 @@ mathjax: true
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  auto_ids: true
   
 sass:
   style: compressed

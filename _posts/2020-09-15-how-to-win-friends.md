@@ -1,7 +1,7 @@
 ---
-title: 'TL;DR - How to Win Friends & Influence People'
-date: 2020-09-14 00:00:00
-excerpt: Because people ain't easy.
+title: 'How to Win Friends & Influence People'
+date: 2020-09-15 00:00:00
+excerpt: "TL;DR - because people ain't easy."
 categories: [tldr]
 tags: [tldr]
 featured_image: '/images/feature/2.jpg'

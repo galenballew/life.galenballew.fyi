@@ -9,8 +9,12 @@ scroll_image: '/images/terraform/tf_associate.png'
 comments: true
 share: true
 ---
+## Table of Contents
+{:.no_toc}
+- toc
+{:toc}
 
-# [Abstract](#abstract)
+## [Abstract](#abstract)
 We are building a platform at work that needs to support Terraform infrastructure-as-code. I decided to get ramped up on the technology so that I wouldn't be talking out of my ass about it. As part of getting ramped up, I found out that Hashicorp offers a certification for Terraform, so I decided to pursue it. 
 
 This article is basically a rehash of the [Terraform Study Guide](https://learn.hashicorp.com/tutorials/terraform/associate-study). The notes here are basically bullet points that are written from my perspective (lots of experience with IaC and cloud in general). There's also an egregious amount of copy pasta.
@@ -174,7 +178,7 @@ data "aws_ami" "example" {
 
 
 ---
-# [Resources](#resources) 
+## [Resources](#resources) 
   - [Terraform Study Guide](https://learn.hashicorp.com/tutorials/terraform/associate-study)
   - [Terraform Tutorials](https://learn.hashicorp.com/terraform)
   - [Terraform Documentation](https://www.terraform.io/docs/index.html)
